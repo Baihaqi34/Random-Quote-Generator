@@ -1,0 +1,95 @@
+*,html,body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: poppins, sans-serif;
+}
+
+
+
+.container{
+	background-color: #75C07B;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+
+
+
+.hero{
+	background-color: white;
+	box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
+	height: 400px;
+	width: 500px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center; 
+	flex-direction: column;
+	border-radius: 20px;
+
+}
+
+
+.title{
+
+	
+	margin: 5px;
+	float: top: 
+}
+
+#kategori{
+	font-weight: bold;
+
+}
+.text{
+
+	margin: 35px;
+
+}
+
+#text-quote{
+	font: poppins;
+	font-size: 18px;
+	text-align: center;
+
+
+}
+
+
+#author{
+	margin: 10px;
+	text-align: center;
+
+	font-size:15px;
+	font-style: italic;
+	font-weight: bold;
+	justify-content: flex-end;
+}
+
+
+
+
+#btn{
+	margin: 25px;
+	text-decoration: none;
+	font-size: 18px;
+	color: white;
+	background-color:#75C07B ;
+	border: 2px solid #75C07B;
+	border-radius: 5px;
+
+	
+}
+
+
+
+#btn:hover{
+	background: white;
+	color: #75C07B;
+	transform: translateY(20%);
+	transition: .2s linear ;
+
+}
